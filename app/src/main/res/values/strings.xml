@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Test0308</string>
+    <string name="title_amount">请输入题目的个数：</string>
+    <string name="button_confirm">确认</string>
+    <string name="button_submit">提交</string>
+    <string name="ed_hint_answer">请输入答案</string>
+</resources>
