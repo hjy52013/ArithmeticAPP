@@ -8,6 +8,6 @@
         android:layout_height="wrap_content"
         android:hint="@string/ed_hint_answer"
         android:id="@+id/ed_dialog"
-        android:inputType="number"/>
+        android:inputType="numberSigned"/>
 
 </LinearLayout>

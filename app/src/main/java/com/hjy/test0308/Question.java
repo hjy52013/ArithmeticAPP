@@ -7,13 +7,13 @@ package com.hjy.test0308;
 public class Question {
 
     String question;
-    int answer;
-    int userAnswer;
+    double answer;
+    double userAnswer;
 
     public Question() {
     }
 
-    public Question(String question, int answer) {
+    public Question(String question, double answer) {
         this.question = question;
         this.answer = answer;
     }
@@ -26,19 +26,19 @@ public class Question {
         this.question = question;
     }
 
-    public int getAnswer() {
+    public double getAnswer() {
         return answer;
     }
 
-    public void setAnswer(int answer) {
+    public void setAnswer(double answer) {
         this.answer = answer;
     }
 
-    public int getUserAnswer() {
+    public double getUserAnswer() {
         return userAnswer;
     }
 
-    public void setUserAnswer(int userAnswer) {
+    public void setUserAnswer(double userAnswer) {
         this.userAnswer = userAnswer;
     }
 }

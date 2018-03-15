@@ -4,4 +4,11 @@
     <string name="button_confirm">确认</string>
     <string name="button_submit">提交</string>
     <string name="ed_hint_answer">请输入答案</string>
+    <string name="cb_multiplication">乘除法</string>
+    <string name="cb_brackets">括号</string>
+    <string name="cb_negativeNumber">负数</string>
+    <string name="tv_range">数值范围：</string>
+    <string name="cb_decimal">小数</string>
+    <string name="ed_decimal">精确到多少位</string>
+    <string name="ed_default">默认为100</string>
 </resources>

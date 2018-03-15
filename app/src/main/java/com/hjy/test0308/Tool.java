@@ -1,5 +1,7 @@
 package com.hjy.test0308;
 
+import android.util.Log;
+
 import java.util.List;
 
 /**
@@ -8,17 +10,27 @@ import java.util.List;
 
 public class Tool {
 
-    public static int accuracy(List<Question> questions){
+    public static double accuracy(List<Question> questions){
 
-        int a,b,m=0;
+        double a,b,m=0;
         for (int i = 0; i < questions.size(); i++) {
             a = questions.get(i).getAnswer();
             b = questions.get(i).getUserAnswer();
-            if (a == b) {
+            Log.i("hahaha", "accuracy: "+ a + b);
+            if (Math.abs(a - b) < 0.000001) {
                 m ++;
             }
         }
         return (m / questions.size()) * 100;
+    }
+
+    public static double decimalRandom(int numberRange,int decimalNumber){
+        double a,c;
+        a = (int)(Math.random() * numberRange);
+        c = (int)(Math.random() * Math.pow(10,decimalNumber));
+        c = c / Math.pow(10,decimalNumber);
+        a = a + c;
+        return a;
     }
 
 }
